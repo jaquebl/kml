@@ -1,0 +1,51 @@
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+div.info { 
+text-align: center;
+height: 100%;  
+   }
+ 
+div.rodape{
+text-align: right;
+border: 3px;
+border-color:#173d4f;
+	
+}
+
+h1 {
+  display: block;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color:darkorange;
+}
+
+h2 {
+  display: block;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: italic;
+  color:#173d4f;
+}
+
+a:link, a:visited {
+  background-color: #d9e7e2;
+  color: rgb(5, 33, 110);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+  color: red; 
+}
