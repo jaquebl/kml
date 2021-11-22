@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
-<Schema name="limite__campos" id="limite__campos">
+<Schema name="limite_campos" id="limite_campos">
 	<SimpleField name="Cod_Cetesb" type="int"></SimpleField>
 	<SimpleField name="Cod_ibge" type="int"></SimpleField>
 	<SimpleField name="Nome" type="string"></SimpleField>
@@ -11,10 +11,10 @@
 	<SimpleField name="Area" type="float"></SimpleField>
 	<SimpleField name="Area_km" type="float"></SimpleField>
 </Schema>
-<Folder><name>limite__campos</name>
+<Folder><name>limite_campos</name>
   <Placemark>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
-	<ExtendedData><SchemaData schemaUrl="#limite__campos">
+	<ExtendedData><SchemaData schemaUrl="#limite_campos">
 		<SimpleData name="Cod_Cetesb">246</SimpleData>
 		<SimpleData name="Cod_ibge">3509700</SimpleData>
 		<SimpleData name="Nome">Campos do Jordao</SimpleData>
